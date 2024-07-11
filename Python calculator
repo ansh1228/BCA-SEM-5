@@ -1,0 +1,22 @@
+print("Enter first value =  ")
+a=int(input())
+print("Enter second value = ")
+b=int(input())
+print("Enter + for addition \n")
+print("Enter - for addition \n")
+print("Enter * for addition \n")
+print("Enter / for addition \n")
+c=input()
+d=0
+
+if c=='+':
+    print(a+b)
+elif c=='-':
+    print(a-b)
+elif c=='*':
+    print(a*b)
+elif c=='/':
+    print(a/b)
+else:
+    print ("")
+    
